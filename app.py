@@ -15,7 +15,7 @@ from logging import config
 import json
 
 logging.config.fileConfig(os.path.join(os.getcwd(), 'config', 'logconf.ini'))
-logging = logging.getLogger('workflow')
+logging = logging.getLogger('spider')
 
 
 def loads():
