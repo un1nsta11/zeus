@@ -1,0 +1,7 @@
+{
+  "SimpleEcho": {
+    "cmd": "echo test",
+    "workdir": "/",
+    "uptime": 10
+  }
+}

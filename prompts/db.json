@@ -1,0 +1,14 @@
+{
+  "commands": [
+    "/ipconfig - shown IP configuration \n",
+    "/cmd      - execute command \n"
+  ],
+  "help": [
+    "Zeus v2.0 (c) by UN1NSTA11 \n",
+    "DISCLAIMER: FOR EDUCATIONAL PURPOSES ONLY. \n USE AT YOUR OWN RISK!\n"
+  ],
+  "start": [
+    "* send /commands to get full supported commands\n",
+    "* send /help to show version\n"
+  ]
+}
