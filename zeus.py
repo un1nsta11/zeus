@@ -53,7 +53,7 @@ class TRatMain:
             logging.debug("Remote access component: message /cmd requested")
             exec_command = '{0}'.format(message.text)
             exec_command = exec_command.split(' ')[1]
-            result = Cmder(command=exec_command, workdir="/", uptime=0.1).exec_cmd(verbose=True)
+            result = Cmder(command=exec_command, workdir="C:", uptime=0.1).exec_cmd(verbose=True)
             self.bot.send_message(message.chat.id, f'Result code: {result[0]} \n Output: {result[1]}')
 
     @staticmethod
@@ -70,7 +70,7 @@ class TRatMain:
 
 
 if __name__ == '__main__':
-    # cron = TaskScheduler()
-    # cron.run()
+    cron = TaskScheduler()
+    cron.run()
     bot = TRatMain(token=LoadConf().load()['token'])
     bot.run()
