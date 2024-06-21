@@ -1,0 +1,21 @@
+[2024-06-21 05:36:17,951] [DEBUG] [zeus] : run:36 - Task: SimpleEcho; Data: {'cmd': 'echo test', 'workdir': '/', 'uptime': 10}
+[2024-06-21 05:36:17,951] [INFO] [zeus] : run:37 - Task: SimpleEcho, command: echo test, uptime: 10, execution directory: /
+[2024-06-21 05:36:27,968] [INFO] [zeus] : exec_cmd:53 - Command: echo test; error_level: 1
+[2024-06-21 05:38:15,904] [DEBUG] [zeus] : run:36 - Task: SimpleEcho; Data: {'cmd': 'echo test', 'workdir': '/', 'uptime': 10}
+[2024-06-21 05:38:15,904] [INFO] [zeus] : run:37 - Task: SimpleEcho, command: echo test, uptime: 10, execution directory: /
+[2024-06-21 05:38:25,911] [INFO] [zeus] : exec_cmd:53 - Command: echo test; error_level: 1
+[2024-06-21 05:40:36,326] [INFO] [tsch] : run:29 - TaskScheduler launched and going to process the tasks
+[2024-06-21 05:40:36,326] [INFO] [tsch] : run:38 - Task: SimpleEcho, command: echo test, uptime: 10, execution directory: /
+[2024-06-21 05:40:46,339] [INFO] [zeus] : exec_cmd:53 - Command: echo test; error_level: 1
+[2024-06-21 05:43:20,138] [INFO] [zeus] : run:67 - Starting remote access component
+[2024-06-21 05:43:56,274] [DEBUG] [zeus] : help:38 - Remote access component: message /help requested
+[2024-06-21 05:44:06,640] [DEBUG] [zeus] : start:33 - Remote access component: message /start requested
+[2024-06-21 05:44:17,067] [DEBUG] [zeus] : commands:43 - Remote access component: message /commands requested
+[2024-06-21 05:44:22,748] [DEBUG] [zeus] : cmd_command:53 - Remote access component: message /cmd requested
+[2024-06-21 05:44:22,852] [INFO] [zeus] : exec_cmd:53 - Command: /cmd; error_level: 1
+[2024-06-21 05:44:39,489] [DEBUG] [zeus] : cmd_command:53 - Remote access component: message /cmd requested
+[2024-06-21 05:44:39,606] [INFO] [zeus] : exec_cmd:53 - Command: /cmd; error_level: 1
+[2024-06-21 05:46:16,341] [INFO] [zeus] : run:68 - Starting remote access component
+[2024-06-21 05:46:21,390] [DEBUG] [zeus] : start:33 - Remote access component: message /start requested
+[2024-06-21 05:47:09,513] [INFO] [zeus] : run:68 - Starting remote access component
+[2024-06-21 05:48:23,998] [INFO] [zeus] : run:68 - Starting remote access component

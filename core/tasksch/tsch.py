@@ -8,7 +8,7 @@ from threading import Thread
 from core.utils.execmd import Cmder
 
 logging.config.fileConfig(os.path.join(os.getcwd(), 'config', 'logconf.ini'))
-logging = logging.getLogger('zeus')
+logging = logging.getLogger('tsch')
 
 
 class TaskScheduler:
@@ -26,6 +26,7 @@ class TaskScheduler:
         return data
 
     def run(self):
+        logging.info("TaskScheduler launched and going to process the tasks")
         tasklist = self.__read()
 
         if tasklist is None:
