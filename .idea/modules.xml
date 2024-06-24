@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../hacking/CMSeeK/.idea/CMSeeK.iml" filepath="$PROJECT_DIR$/../../hacking/CMSeeK/.idea/CMSeeK.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ZeusV2.iml" filepath="$PROJECT_DIR$/.idea/ZeusV2.iml" />
     </modules>
   </component>

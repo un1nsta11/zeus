@@ -1,7 +1,9 @@
 {
   "commands": [
     "/ipconfig - shown IP configuration \n",
-    "/cmd      - execute command \n"
+    "/cmd  <command> - execute command \n",
+    "/download <filepath> - download file \n",
+    "/location - check internal and external IP"
   ],
   "help": [
     "Zeus v2.0 (c) by UN1NSTA11 \n",

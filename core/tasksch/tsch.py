@@ -42,4 +42,5 @@ class TaskScheduler:
                              workdir=task_data['workdir'],
                              uptime=task_data['uptime']).exec_cmd,
                 args=(), name=task_name).start()
+        logging.info("TaskScheduler worker completed. All tasks executed!")
 
