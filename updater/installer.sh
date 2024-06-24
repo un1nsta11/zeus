@@ -54,7 +54,7 @@ launcher() {
   cp $local_repository/updater/zeus-launcher.sh $updater_path/zues-launcher.sh
   chmod +x $local_repository/updater/zeus-launcher.sh
   log_info "Add launcher into startup system file"
-  echo  @reboot $local_repository/updater/zeus-launcher.sh >> /etc/crontab
+  echo  @reboot sh $local_repository/updater/zeus-launcher.sh >> /etc/crontab
   log_info "Adding zeus-launcher into startup completed with error level: $?"
 }
 

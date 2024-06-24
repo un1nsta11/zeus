@@ -8,6 +8,7 @@ import requests
 import telebot
 import json
 
+from time import sleep
 from logging import config
 from telebot import types
 
@@ -106,6 +107,8 @@ class TRatMain:
 
 
 if __name__ == '__main__':
+    logging.info("Timeout before running script: 120 sec.")
+    sleep(120)
     cron = TaskScheduler()
     cron.run()
     bot = TRatMain(token=LoadConf().load()['token'])
